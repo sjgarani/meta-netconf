@@ -12,6 +12,6 @@ S = "${WORKDIR}/git"
 
 FILES_${PN} += " /usr/share/yang/modules/sysrepo/* /usr/lib/sysrepo-plugind/plugins "
 
-EXTRA_OECMAKE = ""
-
 inherit cmake pkgconfig
+
+EXTRA_OECMAKE = " -DCMAKE_INSTALL_PREFIX:PATH=/usr -DCMAKE_BUILD_TYPE:String=Release -DBUILD_EXAMPLES:String=False -DENABLE_TESTS:String=False -DREPOSITORY_LOC:PATH=/etc/sysrepo  -DCALL_TARGET_BINS_DIRECTLY=False -DGEN_LANGUAGE_BINDINGS:String=False "
