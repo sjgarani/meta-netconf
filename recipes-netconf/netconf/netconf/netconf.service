@@ -1,0 +1,8 @@
+[Unit]
+Description=NETCONF Service
+
+[Service]
+ExecStart=/usr/share/netopeer2/netopeer2_start.sh
+
+[Install]
+WantedBy=multi-user.target

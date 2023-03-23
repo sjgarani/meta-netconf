@@ -1,5 +1,5 @@
 # Recipe created by recipetool
-SUMMARY = "YANG-based configuration and operational state data store for Unix/Linux applications."
+SUMMARY = ""
 DESCRIPTION = ""
 LICENSE = "Apache-2.0"
 LIC_FILES_CHKSUM = "file://LICENSE;md5=ef345f161efb68c3836e6f5648b2312f"
