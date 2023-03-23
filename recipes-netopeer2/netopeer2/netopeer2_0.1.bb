@@ -1,5 +1,5 @@
-SUMMARY = "libnetconf2 is a NETCONF library in C intended for building NETCONF clients and servers"
-DESCRIPTION = "The library provides functions to connect NETCONF client and server to each other via SSH and to send, receive and process NETCONF messages."
+SUMMARY = ""
+DESCRIPTION = ""
 SECTION = "libs"
 LICENSE = "BSD-3-Clause"
 LIC_FILES_CHKSUM = "file://LICENSE;md5=41daedff0b24958b2eba4f9086d782e1"
